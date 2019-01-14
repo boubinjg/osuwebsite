@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<title>[ Jayson Boubin @ OSU ]</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Font Awesome Icons -->
+<link rel="stylesheet" href="css/font-awesome.min.css">
+
+<!-- Bootstrap -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<!--<link href="css/bootstrap.min.css" rel="stylesheet">-->
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="js/html5shiv.js"></script>
+<script src="js/respond.min.js"></script>
+<![endif]-->
+<link rel="shortcut icon" type="image/gif" href="/tosu.gif"/>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/menucollapse.js"></script>
+<script type="text/javascript" src="js/arrow78.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
+
+</head>
+
+<body id="page-top" class="index">
+
+<!-- Navigation -->
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button id="button2" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <span><a href="#"><img border="0" width="60" src="images/tosu.gif"/></a>
+                <font size="5">Jayson Boubin, PhD Student</font>
+            </span>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                Home<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="resume.pdf">CV (PDF)</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                    Courses<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="teaching.html">Courses</a></li>
+                        <li><a href="clock.html">Clock</a></li>
+                    </ul>
+
+            </ul>
+        </div><!-- /.navbar-collapse -->
+
+        <!-- search box submenu -->
+        <div class="collapse" id="bs-example-navbar-collapse-2">
+            <gcse:search></gcse:search>
+        </div>
+
+    </div><!-- /.container-fluid -->
+</nav>
+
+<section>
+    <!-- Place this tag where you want the search results to render -->
+    <gcse:searchresults-only></gcse:searchresults-only>
+</section>
+
+<!-- Home Section -->
+<section id="home" style="margin-top:40px">
+<div class="container">
+        <div align="left" class="col-md-3">
+                <img id="mobile-img" src="images/jayson.png" width="190" border="0" height="250" alt=""></a>
+        </div>
+        <div align="left" class="col-md-4">
+            <h3>Jayson Boubin</h3>
+
+            <h4>PhD Student<br>
+            Department of Computer Science and Engineering<br>
+            The Ohio State University<br>
+            2015 Neil Avenue<br>
+            Columbus, OH<br>
+            Email:
+            <script language="JavaScript">
+                <!--
+                document.write("&nbsp;");
+                spiderjam('boubin.2','osu.edu');
+                -->
+            </script><br>
+            Personal website: <a target="_blank" href="http://www.jaysonboubin.com">jaysonboubin.com</a>
+            </h4>
+        </div>
+
+        <!--<p><a href="#" class="btn btn-primary">More &raquo;</a></p>-->
+        <i class="expandshow" style="display:none;" id="tab-1">
+            <button class="btn btn-primary btn-lg btn-block" style="width: 100%;" onclick="javascript:$('.allshow').show();$('.noshow').hide();$('.collapseshow').show();$('.expandshow').hide();">EXPAND ALL SECTIONS <span class="glyphicon glyphicon-chevron-down"></span></button>
+        </i>
+        <i class="collapseshow" style="display:none;" id="tab-1">
+            <button class="btn btn-primary btn-lg btn-block" style="display: block; width: 100%;" onclick="javascript:$('.allshow').hide();$('.noshow').show();$('.expandshow').show();$('.collapseshow').hide();">COLLAPSE ALL SECTIONS <span class="glyphicon glyphicon-chevron-up"></span></button>
+        </i>
+
+    </div>
+</section>
+
+<!-- Home Section -->
+<section id="intro">
+    <div class="container lead">
+        <div style="text-align: left; margin-top:10px" class="col-md-12">
+            <!--<h2>Welcome!</h2>-->
+
+            <i class="noshow" style="display:none;" id="tab-1">
+            <button class="btn btn-default btn-lg btn-block" style="display: block; width: 100%;" onclick="javascript:$('#tab-1-content').toggle();">Introduction <span class="glyphicon glyphicon-chevron-right"></span></button>
+            </i>
+
+            <div class="allshow" style="display:none;" id="tab-1-content">
+            <hr class="star-primary">
+
+            <p class="lead">I am a PhD Student in <a target="_blank" href="https://cse.osu.edu/">Computer Science</a> 
+            at <a target="_blank" href="https://www.osu.edu/">The Ohio State University</a>, 
+            working in the <a target="_blank" href="http://web.cse.ohio-state.edu/~stewart.962/rerout.html">ReRout Lab</a> 
+            under <a target="_blank" href="http://web.cse.ohio-state.edu/~stewart.962/">Dr. Christopher Stewart</a>. 
+            My research focuses on fully autonomous aerial systems, autonomous UAV capable of flying high level, goal oriented missions
+            with minimal human input. Tangentially, I am interested in related topics including robitics, deep learning, and computer systems
+            as a whole.
+            </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-- Courses Section -->
+<section id="courses">
+    <div class="container lead">
+        <div style="text-align: left; margin-top:10px" class="col-md-12">
+
+            <i class="noshow" style="display:none;" id="tab-1">
+                <button class="btn btn-default btn-lg btn-block"  style="display: block; width: 100%;" onclick="javascript:$('#tab-4-content').toggle();">Courses  <span class="glyphicon glyphicon-chevron-right"></span></button>
+            </i>
+            <div class="allshow" style="display:none;" id="tab-4-content">
+            <hr class="star-primary">
+            <h2>Courses <a href="teaching.html" class="btn btn-primary">More &raquo;</a></h2>
+            <ul>
+                <li><span class="label label-default">CSE 2431</span> Systems 2: Introduction to Operating Systems</li>
+            </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--
+Made using this template from github:
+https://github.com/dmsl/academic-responsive-template
+Thanks so much!
+-->
+
+</body>
+
+</html>
